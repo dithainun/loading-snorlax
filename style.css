@@ -1,0 +1,73 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: 'super_legend_boyregular', cursive;
+  font-size: 1.15em;
+  height: 30vh;
+}
+
+figure {
+  text-align: center;
+  margin-top: 15%;
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+#one {
+  animation-name: satu;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#two {
+  animation-name: dua;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#three{
+  animation-name: tiga;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes satu {
+    0% {
+        color: black
+    }
+
+    33% {
+        color: white;
+    }
+}
+
+@keyframes dua {
+    0% {
+        color: black;
+    }
+    66% {
+        color: white;
+    }
+}
+
+@keyframes tiga {
+    0% {
+        color: black;
+    }
+    100% {
+        color: white;
+    }
+}
+
+@media (max-width: 615px) {
+  * {
+    font-size: 1em;
+  }
+
+  figure {
+    margin-top: 30%;
+  }
+}
